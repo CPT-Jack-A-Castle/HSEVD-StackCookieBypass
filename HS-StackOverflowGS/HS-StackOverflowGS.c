@@ -11,7 +11,7 @@ int wmain(int argc, wchar_t* argv[])
 	HANDLE hDevice;
 	HANDLE hMapFile;
 	LPCWSTR lpSharedMemoryMap = L"Local\\SharedMemoryMap";
-	LPVOID pBuf = NULL;;
+	LPVOID pBuf = NULL;
 	LPCWSTR lpDeviceName = L"\\\\.\\HacksysExtremeVulnerableDriver";
 	BOOL bResult = FALSE;
 	LPVOID lpOverflowBuffer;
